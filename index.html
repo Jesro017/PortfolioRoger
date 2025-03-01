@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="hero-text">
+          <h2>Welcome to My Portfolio</h2>
+          <p>I'm a passionate developer specializing in web development and design.</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="skills">
+          <h2>About Me</h2>
+          <p>Hello! I'm Roger M. Albay Jr, Aspiring software developer with foudational kwowledge in programming and web development, seeking an internship to apply cooding skills and learn industry best practices. Committed to contributing to a inniivative projects and growing in a collaborative environment. with expertise in creating responsive and user-friendly websites. I love turning ideas into reality through code and design.</p>
+          <h3>Skills</h3>
+          <div class="skill-item">
+            <span>HTML & CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 50%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span>PHP</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="buttons">
+            <a href="Albay_RogerM.pdf" download class="btn">Download Resume</a>
+            <a href="Coverletter.pdf" download class="btn">Download Cover Letter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project1.png" alt="Project 1">
+          <h3>Flight Booking Management System</h3>
+          <p></p>
+        </div>
+        <div class="project-card">
+          <img src="project2.png" alt="Project 2">
+          <h3>Movie Seat Reservation Management System</h3>
+          <p></p>
+        </div>
+        <div class="project-card">
+          <img src="project3.png" alt="Project 3">
+          <h3>BlissFul Bakehouse</h3>
+          <p>Static For E-Commerce</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Roger Albay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
